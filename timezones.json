@@ -67,11 +67,11 @@
     "isdst": true,
     "text": "(UTC-07:00) Pacific Time (US & Canada)",
     "utc": [
-      "America/Dawson",
-      "America/Los_Angeles",
-      "America/Tijuana",
-      "America/Vancouver",
-      "America/Whitehorse"
+      "America/Dawson (PDT)",
+      "America/Los_Angeles (PDT)",
+      "America/Tijuana (PDT)",
+      "America/Vancouver (PDT)",
+      "America/Whitehorse (PDT) "
     ]
   },
   {
@@ -81,12 +81,11 @@
     "isdst": false,
     "text": "(UTC-08:00) Pacific Time (US & Canada)",
     "utc": [
-      "America/Dawson",
-      "America/Los_Angeles",
-      "America/Tijuana",
-      "America/Vancouver",
-      "America/Whitehorse",
-      "PST8PDT"
+      "America/Dawson (PST)",
+      "America/Los_Angeles (PST)",
+      "America/Tijuana (PST)",
+      "America/Vancouver (PST)",
+      "America/Whitehorse (PST)"
     ]
   },
   {
