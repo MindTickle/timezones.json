@@ -78,7 +78,7 @@
     "value": "Pacific Standard Time",
     "abbr": "PST",
     "offset": -8,
-    "isdst": false,
+    "isdst": true,
     "text": "(UTC-08:00) Pacific Time (US & Canada)",
     "utc": [
       "America/Dawson (PST)",
