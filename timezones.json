@@ -1096,7 +1096,7 @@
     ]
   },
   {
-    "value": "India Standard Time",
+    "value": "Indian Standard Time",
     "abbr": "IST",
     "offset": 5.5,
     "isdst": false,
@@ -1106,7 +1106,7 @@
     ]
   },
   {
-    "value": "Sri Lanka Standard Time",
+    "value": "Sri Lankan Standard Time",
     "abbr": "SLST",
     "offset": 5.5,
     "isdst": false,
