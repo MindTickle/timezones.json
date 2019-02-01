@@ -606,7 +606,7 @@
     ]
   },
   {
-    "value": "GMT Standard Time",
+    "value": "GMT Daylight Time",
     "abbr": "GDT",
     "offset": 1,
     "isdst": true,
@@ -1144,7 +1144,6 @@
       "Asia/Oral",
       "Asia/Samarkand",
       "Asia/Tashkent",
-      "Etc/GMT-5",
       "Indian/Kerguelen",
       "Indian/Maldives"
     ]
