@@ -6,11 +6,11 @@
     "isdst": false,
     "text": "(UTC-12:00) International Date Line West",
     "utc": [
-      "- Date Line West"
+      "International Date Line"
     ]
   },
   {
-    "value": "UTC-11",
+    "value": "Coordinated Universal Time-11",
     "abbr": "",
     "offset": -11,
     "isdst": false,
@@ -236,6 +236,19 @@
     ]
   },
   {
+    "value": "US Mountain Standard Time",
+    "abbr": "UMST",
+    "offset": -7,
+    "isdst": false,
+    "text": "(UTC-07:00) Arizona",
+    "utc": [
+      "America/Creston",
+      "America/Dawson_Creek",
+      "America/Hermosillo",
+      "America/Phoenix"
+    ]
+  },
+  {
     "value": "Mountain Standard Time (Mexico)",
     "abbr": "MDT",
     "offset": -6,
@@ -302,8 +315,7 @@
       "America/Jamaica",
       "America/Lima",
       "America/Panama",
-      "America/Rio_Branco",
-      "Etc/GMT+5"
+      "America/Rio_Branco"
     ]
   },
   {
@@ -399,8 +411,7 @@
       "America/St_Lucia",
       "America/St_Thomas",
       "America/St_Vincent",
-      "America/Tortola",
-      "Etc/GMT+4"
+      "America/Tortola"
     ]
   },
   {
@@ -471,8 +482,7 @@
       "America/Recife",
       "America/Santarem",
       "Antarctica/Rothera",
-      "Atlantic/Stanley",
-      "Etc/GMT+3"
+      "Atlantic/Stanley"
     ]
   },
   {
@@ -513,17 +523,8 @@
     "text": "(UTC-02:00) Coordinated Universal Time-02",
     "utc": [
       "America/Noronha",
-      "Atlantic/South_Georgia",
-      "Etc/GMT+2"
+      "Atlantic/South_Georgia"
     ]
-  },
-  {
-    "value": "Mid-Atlantic Standard Time",
-    "abbr": "MDT",
-    "offset": -1,
-    "isdst": true,
-    "text": "(UTC-02:00) Mid-Atlantic - Old",
-    "utc": []
   },
   {
     "value": "Azores Standard Time",
@@ -543,7 +544,7 @@
     "isdst": false,
     "text": "(UTC-01:00) Cape Verde Is.",
     "utc": [
-      "Atlantic/Cape_Verde",
+      "Atlantic/Cape_Verde"
     ]
   },
   {
@@ -719,8 +720,7 @@
       "Africa/Ndjamena",
       "Africa/Niamey",
       "Africa/Porto-Novo",
-      "Africa/Tunis",
-      "Etc/GMT-1"
+      "Africa/Tunis"
     ]
   },
   {
@@ -817,7 +817,7 @@
       "Africa/Lusaka",
       "Africa/Maputo",
       "Africa/Maseru",
-      "Africa/Mbabane",
+      "Africa/Mbabane"
     ]
   },
   {
@@ -930,7 +930,6 @@
       "Africa/Mogadishu",
       "Africa/Nairobi",
       "Antarctica/Syowa",
-      "Etc/GMT-3",
       "Indian/Antananarivo",
       "Indian/Comoro",
       "Indian/Mayotte"
@@ -963,22 +962,10 @@
   },
   {
     "value": "Iran Standard Time",
-    "abbr": "IRST",
-    "offset": 3.5,
-    "isdst": false,
-    "hasdst": true,
-    "text": "(UTC+03:30) Tehran",
-    "utc": [
-      "Asia/Tehran"
-    ]
-  },
-  {
-    "value": "Iran Daylight Time",
     "abbr": "IDT",
     "offset": 4.5,
     "isdst": true,
-    "hasdst": true,
-    "text": "(UTC+04:30) Tehran",
+    "text": "(UTC+03:30) Tehran",
     "utc": [
       "Asia/Tehran"
     ]
@@ -991,8 +978,7 @@
     "text": "(UTC+04:00) Abu Dhabi, Muscat",
     "utc": [
       "Asia/Dubai",
-      "Asia/Muscat",
-      "Etc/GMT-4"
+      "Asia/Muscat"
     ]
   },
   {
@@ -1128,7 +1114,7 @@
       "Asia/Almaty",
       "Asia/Bishkek",
       "Asia/Qyzylorda",
-      "Asia/Urumqi",
+      "Asia/Urumqi"
       "Indian/Chagos"
     ]
   },
@@ -1169,7 +1155,7 @@
       "Asia/Pontianak",
       "Asia/Saigon",
       "Asia/Vientiane",
-      "Indian/Christmas Islands"
+      "Indian/Christmas"
     ]
   },
   {
@@ -1218,7 +1204,7 @@
       "Asia/Kuching",
       "Asia/Makassar",
       "Asia/Manila",
-      "Asia/Singapore",
+      "Asia/Singapore"
     ]
   },
   {
@@ -1375,7 +1361,6 @@
     "text": "(UTC+11:00) Solomon Is., New Caledonia",
     "utc": [
       "Antarctica/Macquarie",
-      "Etc/GMT-11",
       "Pacific/Efate",
       "Pacific/Guadalcanal",
       "Pacific/Kosrae",
@@ -1408,7 +1393,7 @@
   },
   {
     "value": "UTC+12",
-    "abbr": "",
+    "abbr": "U",
     "offset": 12,
     "isdst": false,
     "text": "(UTC+12:00) Coordinated Universal Time+12",
