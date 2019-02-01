@@ -6,16 +6,17 @@
     "isdst": false,
     "text": "(UTC-12:00) International Date Line West",
     "utc": [
-      "- Date Line West"
+      "Etc/GMT+12"
     ]
   },
   {
     "value": "UTC-11",
-    "abbr": "",
+    "abbr": "U",
     "offset": -11,
     "isdst": false,
     "text": "(UTC-11:00) Coordinated Universal Time-11",
     "utc": [
+      "Etc/GMT+11",
       "Pacific/Midway",
       "Pacific/Niue",
       "Pacific/Pago_Pago"
@@ -28,6 +29,7 @@
     "isdst": false,
     "text": "(UTC-10:00) Hawaii",
     "utc": [
+      "Etc/GMT+10",
       "Pacific/Honolulu",
       "Pacific/Johnston",
       "Pacific/Rarotonga",
@@ -236,6 +238,20 @@
     ]
   },
   {
+    "value": "US Mountain Standard Time",
+    "abbr": "UMST",
+    "offset": -7,
+    "isdst": false,
+    "text": "(UTC-07:00) Arizona",
+    "utc": [
+      "America/Creston",
+      "America/Dawson_Creek",
+      "America/Hermosillo",
+      "America/Phoenix",
+      "Etc/GMT+7"
+    ]
+  },
+  {
     "value": "Mountain Standard Time (Mexico)",
     "abbr": "MDT",
     "offset": -6,
@@ -259,6 +275,7 @@
       "America/Guatemala",
       "America/Managua",
       "America/Tegucigalpa",
+      "Etc/GMT+6",
       "Pacific/Galapagos"
     ]
   },
@@ -544,6 +561,7 @@
     "text": "(UTC-01:00) Cape Verde Is.",
     "utc": [
       "Atlantic/Cape_Verde",
+      "Etc/GMT+1"
     ]
   },
   {
@@ -564,7 +582,8 @@
     "isdst": false,
     "text": "(UTC) Coordinated Universal Time",
     "utc": [
-      "America/Danmarkshavn"
+      "America/Danmarkshavn",
+      "Etc/GMT"
     ]
   },
   {
@@ -818,6 +837,7 @@
       "Africa/Maputo",
       "Africa/Maseru",
       "Africa/Mbabane",
+      "Etc/GMT-2"
     ]
   },
   {
@@ -963,22 +983,10 @@
   },
   {
     "value": "Iran Standard Time",
-    "abbr": "IRST",
-    "offset": 3.5,
-    "isdst": false,
-    "hasdst": true,
-    "text": "(UTC+03:30) Tehran",
-    "utc": [
-      "Asia/Tehran"
-    ]
-  },
-  {
-    "value": "Iran Daylight Time",
     "abbr": "IDT",
     "offset": 4.5,
     "isdst": true,
-    "hasdst": true,
-    "text": "(UTC+04:30) Tehran",
+    "text": "(UTC+03:30) Tehran",
     "utc": [
       "Asia/Tehran"
     ]
@@ -1129,6 +1137,7 @@
       "Asia/Bishkek",
       "Asia/Qyzylorda",
       "Asia/Urumqi",
+      "Etc/GMT-6",
       "Indian/Chagos"
     ]
   },
@@ -1169,7 +1178,8 @@
       "Asia/Pontianak",
       "Asia/Saigon",
       "Asia/Vientiane",
-      "Indian/Christmas Islands"
+      "Etc/GMT-7",
+      "Indian/Christmas"
     ]
   },
   {
@@ -1219,6 +1229,7 @@
       "Asia/Makassar",
       "Asia/Manila",
       "Asia/Singapore",
+      "Etc/GMT-8"
     ]
   },
   {
@@ -1273,6 +1284,7 @@
       "Asia/Dili",
       "Asia/Jayapura",
       "Asia/Tokyo",
+      "Etc/GMT-9",
       "Pacific/Palau"
     ]
   },
@@ -1338,6 +1350,7 @@
     "text": "(UTC+10:00) Guam, Port Moresby",
     "utc": [
       "Antarctica/DumontDUrville",
+      "Etc/GMT-10",
       "Pacific/Guam",
       "Pacific/Port_Moresby",
       "Pacific/Saipan",
@@ -1408,11 +1421,12 @@
   },
   {
     "value": "UTC+12",
-    "abbr": "",
+    "abbr": "U",
     "offset": 12,
     "isdst": false,
     "text": "(UTC+12:00) Coordinated Universal Time+12",
     "utc": [
+      "Etc/GMT-12",
       "Pacific/Funafuti",
       "Pacific/Kwajalein",
       "Pacific/Majuro",
@@ -1462,6 +1476,7 @@
     "isdst": false,
     "text": "(UTC+13:00) Nuku'alofa",
     "utc": [
+      "Etc/GMT-13",
       "Pacific/Enderbury",
       "Pacific/Fakaofo",
       "Pacific/Tongatapu"
