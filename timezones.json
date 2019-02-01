@@ -172,7 +172,6 @@
       "America/Winnipeg"
     ]
   },
-
   {
     "value": "Eastern Standard Time",
     "abbr": "EST",
@@ -526,6 +525,8 @@
       "Atlantic/South_Georgia"
     ]
   },
+
+
   {
     "value": "Azores Standard Time",
     "abbr": "ADT",
@@ -595,6 +596,16 @@
     ]
   },
   {
+    "value": "Irish Standard Time",
+    "abbr": "IST",
+    "offset": 1,
+    "isdst": true,
+    "text": "(UTC+01:00) Dublin",
+    "utc": [
+      "Europe/Dublin"
+    ]
+  },
+  {
     "value": "GMT Standard Time",
     "abbr": "GDT",
     "offset": 1,
@@ -633,10 +644,38 @@
     ]
   },
   {
-    "value": "W. Europe Standard Time",
-    "abbr": "WEDT",
-    "offset": 2,
+    "value": "Western European Time",
+    "abbr": "WET",
+    "offset": 0,
+    "isdst": false,
+    "hasdst": true,
+    "text": "(UTC+00:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
+    "utc": [
+      "Arctic/Longyearbyen",
+      "Europe/Amsterdam",
+      "Europe/Andorra",
+      "Europe/Berlin",
+      "Europe/Busingen",
+      "Europe/Gibraltar",
+      "Europe/Luxembourg",
+      "Europe/Malta",
+      "Europe/Monaco",
+      "Europe/Oslo",
+      "Europe/Rome",
+      "Europe/San_Marino",
+      "Europe/Stockholm",
+      "Europe/Vaduz",
+      "Europe/Vatican",
+      "Europe/Vienna",
+      "Europe/Zurich"
+    ]
+  },
+  {
+    "value": "Western European Summer Time",
+    "abbr": "WEST",
+    "offset": 1,
     "isdst": true,
+    "hasdst": true,
     "text": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
     "utc": [
       "Arctic/Longyearbyen",
@@ -659,10 +698,11 @@
     ]
   },
   {
-    "value": "Central Europe Standard Time",
-    "abbr": "CEDT",
-    "offset": 2,
-    "isdst": true,
+    "value": "Central Europe Time",
+    "abbr": "CET",
+    "offset": 1,
+    "isdst": false,
+    "hasdst": true,
     "text": "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",
     "utc": [
       "Europe/Belgrade",
@@ -675,9 +715,30 @@
     ]
   },
   {
+    "value": "Central Europe Summer Time",
+    "abbr": "CEST",
+    "offset": 2,
+    "isdst": false,
+    "hasdst": true,
+    "text": "(UTC+02:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague, Sarajevo, Skopje, Warsaw, Zagreb",
+    "utc": [
+      "Europe/Belgrade",
+      "Europe/Bratislava",
+      "Europe/Budapest",
+      "Europe/Ljubljana",
+      "Europe/Podgorica",
+      "Europe/Prague",
+      "Europe/Tirane",
+      "Europe/Sarajevo",
+      "Europe/Skopje",
+      "Europe/Warsaw",
+      "Europe/Zagreb"
+    ]
+  },
+  {
     "value": "Romance Standard Time",
     "abbr": "RDT",
-    "offset": 2,
+    "offset": 1,
     "isdst": true,
     "text": "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",
     "utc": [
@@ -686,19 +747,6 @@
       "Europe/Copenhagen",
       "Europe/Madrid",
       "Europe/Paris"
-    ]
-  },
-  {
-    "value": "Central European Standard Time",
-    "abbr": "CEDT",
-    "offset": 2,
-    "isdst": true,
-    "text": "(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",
-    "utc": [
-      "Europe/Sarajevo",
-      "Europe/Skopje",
-      "Europe/Warsaw",
-      "Europe/Zagreb"
     ]
   },
   {
@@ -777,11 +825,12 @@
     ]
   },
   {
-    "value": "E. Europe Standard Time",
-    "abbr": "EEDT",
-    "offset": 3,
-    "isdst": true,
-    "text": "(UTC+02:00) E. Europe",
+    "value": "Eastern European Time",
+    "abbr": "EET",
+    "offset": 2,
+    "isdst": false,
+    "hasdst": true,
+    "text": "(UTC+02:00) Eastern Europe",
     "utc": [
       "Asia/Nicosia",
       "Europe/Athens",
@@ -797,7 +846,30 @@
       "Europe/Uzhgorod",
       "Europe/Vilnius",
       "Europe/Zaporozhye"
-
+    ]
+  },
+  {
+    "value": "Eastern European Summer Time",
+    "abbr": "EEST",
+    "offset": 3,
+    "isdst": true,
+    "hasdst": true,
+    "text": "(UTC+03:00) Eastern Europe",
+    "utc": [
+      "Asia/Nicosia",
+      "Europe/Athens",
+      "Europe/Bucharest",
+      "Europe/Chisinau",
+      "Europe/Helsinki",
+      "Europe/Kiev",
+      "Europe/Mariehamn",
+      "Europe/Nicosia",
+      "Europe/Riga",
+      "Europe/Sofia",
+      "Europe/Tallinn",
+      "Europe/Uzhgorod",
+      "Europe/Vilnius",
+      "Europe/Zaporozhye"
     ]
   },
   {
@@ -850,10 +922,22 @@
   },
   {
     "value": "Israel Standard Time",
-    "abbr": "JDT",
+    "abbr": "IST",
+    "offset": 2,
+    "isdst": false,
+    "hasdst": true,
+    "text": "(UTC+02:00) Jerusalem",
+    "utc": [
+      "Asia/Jerusalem"
+    ]
+  },
+  {
+    "value": "Israel Summer Time",
+    "abbr": "IDT",
     "offset": 3,
     "isdst": true,
-    "text": "(UTC+02:00) Jerusalem",
+    "hasdst": true,
+    "text": "(UTC+03:00) Jerusalem",
     "utc": [
       "Asia/Jerusalem"
     ]
@@ -962,10 +1046,22 @@
   },
   {
     "value": "Iran Standard Time",
-    "abbr": "IDT",
+    "abbr": "IRST",
+    "offset": 3.5,
+    "isdst": true,
+    "hasdst" : true,
+    "text": "(UTC+03:30) Tehran",
+    "utc": [
+      "Asia/Tehran"
+    ]
+  },
+  {
+    "value": "Iran Standard Time",
+    "abbr": "IRDT",
     "offset": 4.5,
     "isdst": true,
-    "text": "(UTC+03:30) Tehran",
+    "hasdst" : true,
+    "text": "(UTC+04:30) Tehran",
     "utc": [
       "Asia/Tehran"
     ]
