@@ -574,6 +574,7 @@
     "abbr": "GMT",
     "offset": 0,
     "isdst": false,
+    "hasdst": true,
     "text": "(UTC) Edinburgh, London",
     "utc": [
       "Europe/Isle_of_Man",
@@ -610,6 +611,7 @@
     "abbr": "GDT",
     "offset": 1,
     "isdst": true,
+    "hasdst": true,
     "text": "(UTC) Dublin, Lisbon",
     "utc": [
       "Atlantic/Canary",
