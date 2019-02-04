@@ -11,7 +11,7 @@
   },
   {
     "value": "Coordinated Universal Time-11",
-    "abbr": "",
+    "abbr": "UTC-11",
     "offset": -11,
     "isdst": false,
     "text": "(UTC-11:00) Coordinated Universal Time-11",
@@ -71,6 +71,7 @@
     "isdst": false,
     "hasdst" : true,
     "text": "(UTC-08:00) Pacific Standard Time (US & Canada)",
+    "alternate": "Pacific Daylight Time",
     "utc": [
       "America/Dawson",
       "America/Los_Angeles",
@@ -101,6 +102,7 @@
     "isdst": false,
     "hasdst": true,
     "text": "(UTC-07:00) Mountain Standard Time (US & Canada)",
+    "alternate": "Mountain Standard Time",
     "utc": [
       "America/Boise",
       "America/Cambridge_Bay",
@@ -351,10 +353,27 @@
   },
   {
     "value": "Atlantic Standard Time",
+    "abbr": "AST",
+    "offset": -4,
+    "isdst": false,
+    "hasdst": true,
+    "text": "(UTC-04:00) Atlantic Time (Canada)",
+    "utc": [
+      "America/Glace_Bay",
+      "America/Goose_Bay",
+      "America/Halifax",
+      "America/Moncton",
+      "America/Thule",
+      "Atlantic/Bermuda"
+    ]
+  },
+  {
+    "value": "Atlantic Daylight Time",
     "abbr": "ADT",
     "offset": -3,
     "isdst": true,
-    "text": "(UTC-04:00) Atlantic Time (Canada)",
+    "hasdst": true,
+    "text": "(UTC-03:00) Atlantic Time (Canada)",
     "utc": [
       "America/Glace_Bay",
       "America/Goose_Bay",
