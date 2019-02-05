@@ -1,7 +1,7 @@
 var oldTimezonesList = require('./oldTimezones.json');
 var timezonesList = require('./timezones.json');
 
-var allTimezonesList = oldTimezones.concat(timezonesList);
+var allTimezonesList = oldTimezonesList.concat(timezonesList);
 
 module.exports = {
     oldTimezonesList: oldTimezonesList,
