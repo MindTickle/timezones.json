@@ -321,10 +321,22 @@
   },
   {
     "value": "US Eastern Standard Time",
+    "abbr": "UEST",
+    "offset": -5,
+    "isdst": true,
+    "text": "(UTC-05:00) Indiana (East)",
+    "utc": [
+      "America/Indiana/Marengo",
+      "America/Indiana/Vevay",
+      "America/Indianapolis"
+    ]
+  },
+  {
+    "value": "US Eastern Daylight Time",
     "abbr": "UEDT",
     "offset": -4,
     "isdst": true,
-    "text": "(UTC-05:00) Indiana (East)",
+    "text": "(UTC-04:00) Indiana (East)",
     "utc": [
       "America/Indiana/Marengo",
       "America/Indiana/Vevay",
